@@ -12,7 +12,7 @@ endif
 
 set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
-set history=1000                "Store lots of :cmdline history
+set history=10000               "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom
 set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
@@ -53,6 +53,7 @@ set nowb
 silent !mkdir ~/.vim/backups > /dev/null 2>&1
 set undodir=~/.vim/backups
 set undofile
+
 
 " ================ Indentation ======================
 
@@ -101,3 +102,32 @@ set wildignore+=*.png,*.jpg,*.gif
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
+
+" Doug's Customizations
+" ================ Disable Session Autosave =========
+let g:session_autosave = 'no'
+
+call togglebg#map("<F5>")
+
+" Golang Settings
+" autocmd FileType go setlocal noexpandtab tabstop=2 softtabstop=2 shiftwidth=2
+" autocmd FileType,ColorScheme go,* set list listchars=tab:\|·,nbsp:·,trail:·,extends:>,precedes:<
+set rtp+=$GOROOT/misc/vim
+" autocmd BufWritePre *.go :silent Fmt
+
+let g:vimwiki_list = [{'path': '~/SparkleShare/notes/'}]
+let g:tagbar_ctags_bin = "/opt/boxen/homebrew/bin/ctags"
+
+au BufRead,BufNewFile *.txt,*.tex set wrap linebreak nolist textwidth=0 wrapmargin=0
+
+nnoremap <MiddleMouse> <Nop>
+nnoremap <2-MiddleMouse> <Nop>
+nnoremap <3-MiddleMouse> <Nop>
+nnoremap <4-MiddleMouse> <Nop>
+
+inoremap <MiddleMouse> <Nop>
+inoremap <2-MiddleMouse> <Nop>
+inoremap <3-MiddleMouse> <Nop>
+inoremap <4-MiddleMouse> <Nop>
+
+map <F9> :set wrap!<cr>
