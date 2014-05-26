@@ -116,7 +116,7 @@ set rtp+=$GOROOT/misc/vim
 " autocmd BufWritePre *.go :silent Fmt
 
 let g:vimwiki_list = [{'path': '~/SparkleShare/notes/'}]
-let g:tagbar_ctags_bin = "/opt/boxen/homebrew/bin/ctags"
+let g:tagbar_ctags_bin = "/usr/local/bin/ctags"
 let g:session_autoload = 'no'
 
 
