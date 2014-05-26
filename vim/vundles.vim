@@ -98,7 +98,7 @@ Bundle "vim-scripts/AutoTag.git"
 Bundle "vim-scripts/lastpos.vim"
 Bundle "vim-scripts/sudo.vim"
 Bundle "xsunsmile/showmarks.git"
-Bundle "terryma/vim-multiple-cursors"
+" Bundle "terryma/vim-multiple-cursors"
 "vim-misc is required for vim-session
 Bundle "xolox/vim-misc"
 Bundle "xolox/vim-session"
@@ -122,7 +122,7 @@ Bundle "chrisbra/color_highlight.git"
 Bundle "skwp/vim-colors-solarized"
 Bundle "bling/vim-airline.git"
 Bundle "vim-scripts/TagHighlight.git"
-Bundle "bogado/file-line.git"
+" Bundle "bogado/file-line.git"
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to

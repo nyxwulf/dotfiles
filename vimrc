@@ -117,6 +117,8 @@ set rtp+=$GOROOT/misc/vim
 
 let g:vimwiki_list = [{'path': '~/SparkleShare/notes/'}]
 let g:tagbar_ctags_bin = "/opt/boxen/homebrew/bin/ctags"
+let g:session_autoload = 'no'
+
 
 au BufRead,BufNewFile *.txt,*.tex set wrap linebreak nolist textwidth=0 wrapmargin=0
 
