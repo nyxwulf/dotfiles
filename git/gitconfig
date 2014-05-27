@@ -123,9 +123,6 @@
 [include]
   path = .gitconfig.user
 
-[credential]
-helper = /opt/boxen/bin/boxen-git-credential
-
 [hub]
 protocol = https
 [user]
