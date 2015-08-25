@@ -1,0 +1,7 @@
+Bundle "vim-scripts/vimwiki"
+Bundle "https://github.com/jgdavey/tslime.vim.git"
+Bundle "cespare/vim-toml"
+Bundle "fatih/vim-go"
+Bundle "https://github.com/eldridgejm/tslime_ipython.git"
+Bundle "https://github.com/dagwieers/asciidoc-vim.git"
+Bundle "https://github.com/terryma/vim-multiple-cursors.git"

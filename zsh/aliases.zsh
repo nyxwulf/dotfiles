@@ -69,9 +69,9 @@ alias gam='git amend --reset-author'
 alias grv='git remote -v'
 alias grr='git remote rm'
 alias grad='git remote add'
-alias gr='git rebase'
-alias gra='git rebase --abort'
-alias ggrc='git rebase --continue'
+# alias gr='git rebase'
+# alias gra='git rebase --abort'
+# alias ggrc='git rebase --continue'
 alias gbi='git rebase --interactive'
 alias gl='git l'
 alias glg='git l'
@@ -149,3 +149,6 @@ alias rs='rspec spec'
 alias sp='sprintly'
 # spb = sprintly branch - create a branch automatically based on the bug you're working on
 alias spb="git checkout -b \`sp | tail -2 | grep '#' | sed 's/^ //' | sed 's/[^A-Za-z0-9 ]//g' | sed 's/ /-/g' | cut -d"-" -f1,2,3,4,5\`"
+
+# randname 
+alias rn="randname"

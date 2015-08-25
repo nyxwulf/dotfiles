@@ -50,4 +50,6 @@ nmap <F4> :TagbarToggle<CR>
 
 au BufWritePost *.go silent! !ctags -R &
 
-
+vmap <C-c><C-c> <Plug>SendSelectionToTmux
+nmap <C-c><C-c> <Plug>NormalModeSendToTmux
+nmap <C-c>v <Plug>SetTmuxVars
