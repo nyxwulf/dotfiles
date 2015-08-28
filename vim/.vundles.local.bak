@@ -4,4 +4,5 @@ Bundle "cespare/vim-toml"
 Bundle "fatih/vim-go"
 Bundle "https://github.com/eldridgejm/tslime_ipython.git"
 Bundle "https://github.com/dagwieers/asciidoc-vim.git"
-Bundle "https://github.com/terryma/vim-multiple-cursors.git"
+Bundle "https://github.com/rust-lang/rust.vim.git"
+
