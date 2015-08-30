@@ -1,1 +1,1 @@
-prompt sorin2
+prompt sorin

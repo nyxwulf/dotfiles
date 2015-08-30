@@ -20,9 +20,9 @@ alias cdb='cd -'
 
 # Show human friendly numbers and colors
 alias df='df -h'
-alias ll='ls -alGh --color=auto'
+alias ll='ls -AlGh --color=auto'
 # alias ls='ls -Gh --color=auto'
-alias l='ls -aGh --color=auto'
+alias l='ls -AGh --color=auto'
 alias du='du -h -d 2'
 
 # show me files matching "ls grep"
